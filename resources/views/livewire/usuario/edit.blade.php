@@ -21,16 +21,17 @@
                     <label for="email_educacional">Email Educacional</label>
                     <input type="text" nome="email_educacional" id="email_educacional" class="form-control" wire:model.defer="email_educacional">
                 </div>
-
-                <div class="mb-3">
-                    <label for="senha">Senha</label>
-                    <input type="text" nome="senha" id="senha" class="form-control" wire:model.defer="senha">
-                </div>
-
+                
                 <div class="mb-3">
                     <label for="rm">RM</label>
-                    <textarea class="form-control" name="rm" id="rm" rows="5" wire:model.defer="rm"></textarea>
+                    <textarea class="form-control" name="rm" id="rm" wire:model.defer="rm"></textarea>
                 </div>
+                
+                <div class="mb-3">
+                    <label for="password">Senha</label>
+                    <input type="password" nome="password" id="password" class="form-control" wire:model.defer="password">
+                </div>
+
 
                 <div class="mb-3 d-flex justify-content-center">
                     <button type="submit" class="btn btn-dark">Atualizar</button>

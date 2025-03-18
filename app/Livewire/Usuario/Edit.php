@@ -15,7 +15,6 @@ class Edit extends Component
 
     // vai ser utilizado assim que nosso componente for chamado, vai buscar nossa tarefa por ID, e vai atribuir valor aos campos acima
     public function mount($id){
-            
         $usuario = Usuario::find($id);
 
         $this->usuarioId = $usuario->id;

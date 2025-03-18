@@ -27,12 +27,12 @@
 
                 <div class="mb-3">
                     <label for="rm">RM</label>
-                    <input class="form-control" name="rm" id="rm" rows="5" wire:model.defer="rm" placeholder="Insira seu RM"></input>
+                    <input class="form-control" name="rm" id="rm" wire:model.defer="rm" placeholder="Insira seu RM"></input>
                 </div>
 
                 <div class="mb-3">
-                    <label for="senha">Senha</label>
-                    <input type="password" class="form-control" name="password" id="password" rows="5" wire:model.defer="senha" placeholder="Insira sua Senha"></input>
+                    <label for="password">Senha</label>
+                    <input type="password" class="form-control" name="password" id="password" wire:model.defer="password" placeholder="Insira sua Senha"></input>
                 </div>
 
                 <div class="mb-3 d-flex justify-content-center">
