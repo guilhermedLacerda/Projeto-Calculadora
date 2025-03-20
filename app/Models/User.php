@@ -14,6 +14,7 @@ class User extends Authenticatable
     const ROLE_ADMIN = 'admin';
     const ROLE_USER = 'user';
     const ROLE_PROFESSOR = 'professor';
+    
 
     /**
      * The attributes that are mass assignable.
@@ -21,10 +22,9 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
+        'email_educacional',
         'password',
-        'role',
+        'role'
     ];
 
     /**

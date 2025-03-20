@@ -3,6 +3,7 @@
 namespace App\Livewire\Usuario;
 
 use App\Models\Usuario;
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
 class Edit extends Component

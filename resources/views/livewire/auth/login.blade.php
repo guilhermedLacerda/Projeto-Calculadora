@@ -29,7 +29,7 @@
     </div>
 </div> --}}
 
-<div class="mt-5 d-flex ">
+<div class="mt-5">
    
     @if (session()->has('error'))
     <div class="alert alert-danger">{{ session('error') }}</div>

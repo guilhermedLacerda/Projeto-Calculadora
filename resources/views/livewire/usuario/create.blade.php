@@ -32,7 +32,7 @@
 
                 <div class="mb-3">
                     <label for="senha">Senha</label>
-                    <input type="password" class="form-control" name="password" id="password" wire:model.defer="password" placeholder="Insira sua Senha"></input>
+                    <input type="password" class="form-control" name="senha" id="senha" wire:model.defer="senha" placeholder="Insira sua Senha"></input>
                 </div>
 
                 <div class="mb-3 d-flex justify-content-center">

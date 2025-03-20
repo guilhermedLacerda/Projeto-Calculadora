@@ -3,14 +3,14 @@
         <div class="card-body">
 
             <table class="table table-hover">
-                {{-- <thead>
+                <thead>
                     <tr>
                        <th>#</th>
                        <th>Nome</th>
                        <th>Data e Hora</th>
                        <th>Ações</th> 
                     </tr>
-                </thead> --}}
+                </thead>
                 
                 <tbody>
                     @foreach($usuario as $u)

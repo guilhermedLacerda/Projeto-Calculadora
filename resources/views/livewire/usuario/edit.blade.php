@@ -11,7 +11,7 @@
         <h3 class="card-header d-flex justify-content-center ">Edição de Aluno</h3>
 
         <div class="card-body">
-            <form wire:submit.prevent="salvar mb-3">
+            <form wire:submit.prevent="salvar">
                 <div class="mb-3">
                     <label for="nome_completo" class="form-label">Nome Completo</label>
                     <input type="text" class="form-control" id="nome_completo" name="nome_completo" placeholder="Insira seu nome completo" wire:model.defer="nome">
@@ -24,12 +24,12 @@
                 
                 <div class="mb-3">
                     <label for="rm">RM</label>
-                    <textarea class="form-control" name="rm" id="rm" wire:model.defer="rm"></textarea>
+                    <input class="form-control" name="rm" id="rm" wire:model.defer="rm"></input>
                 </div>
                 
                 <div class="mb-3">
                     <label for="password">Senha</label>
-                    <input type="password" nome="password" id="password" class="form-control" wire:model.defer="password">
+                    <input type="password" nome="senha" id="senha" class="form-control" wire:model.defer="senha">
                 </div>
 
 

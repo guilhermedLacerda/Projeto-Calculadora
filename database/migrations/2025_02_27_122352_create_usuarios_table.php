@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('email_educacional', 100)->nullable(false)->unique();
             $table->integer('rm')->nullable(false)->unique();
             $table->string('senha')->nullable(false);
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
